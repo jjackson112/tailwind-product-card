@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Product Card with Tailwind</title>
     <link rel="stylesheet" href="main.css">
     <!--Tailwind CDN-->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="config.js"></script>
-    <!--Control center for all Tailwind styling-->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                colors: {
-                    primary: '#2563eb',
-                    secondary: '#f97316',
-                },
-            },
-        },
-    }
-  </script>
 </head>
 <body>
-    
+    <main>
+        <img src="img/lime.jpg" alt="open lime on a purple background by Andres Hernandez - Unsplash">
+        <h1>A single lime</h1>
+        <p>tart yet sweet</p>
+        <h2>$.52 cents</h2>
+        <p>Experience a burst of sunshine in every bite with this unique, hand-picked, and sun-kissed jewel of the citrus world.</p>
+        <button>Add to Cart</button>
+        <svg class="fill-lime-500">
+
+        </svg>
+        <h3>Features</h3>
+        <ul>
+            <li><span>Nature's candy</span>: A symphony of sweet and tangy notes</li>
+            <li><span>Vibrant hue</span>: A visual feast for the eyes</li>
+            <li><span>Invigorating aroma</span>: A sensory delight</li>
+            <li><span>Nutrient-rich</span>: Bursting with vitamins</li>
+            <li><span>Perfect for</span>: snacking, juicing, or culinary cre    ations</li>
+        </ul>
+    </main>
 </body>
 </html>
