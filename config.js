@@ -8,11 +8,8 @@ tailwind.config = {
             colors: {
                 pale_green: '#98FB98',
                 light_green: '#90EE90',
-                green: '#00FF00'
-            },
-            fontFamily: {
-                sans: ['Bebas Neue', 'sans-serif'],
-                slab: ['Roboto Slab', 'serif']
+                green: '#00FF00',
+                off_white: '#FFF5EE'
             }
         }
     }
