@@ -9,7 +9,8 @@ tailwind.config = {
                 pale_green: '#98FB98',
                 light_green: '#90EE90',
                 green: '#00FF00',
-                off_white: '#FFF5EE'
+                off_white: '#FFF5EE',
+                emerald: '#50C878'
             }
         }
     }
