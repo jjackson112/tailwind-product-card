@@ -11,6 +11,14 @@ tailwind.config = {
                 green: '#00FF00',
                 off_white: '#FFF5EE',
                 emerald: '#50C878'
+            },
+            fontFamily: {
+                sans: ['Josefin Sans', 'sans-serif'],
+                title: ['Playfair Display SC', 'serif']
+            },
+            backgroundImage: {
+                mobile: "url('img/geometric-shapes-with-faded-gradient.jpg')",
+                desktop: "url('img/lavender-sydney-rae-unsplash.jpg')"
             }
         }
     }
