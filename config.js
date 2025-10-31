@@ -18,7 +18,7 @@ tailwind.config = {
             },
             backgroundImage: {
                 mobile: "url('img/geometric-shapes-with-faded-gradient.jpg')",
-                desktop: "url('img/lavender-sydney-rae-unsplash.jpg')"
+                desktop: "url('img/geometric-shapes-with-faded-gradient.jpg')"
             }
         }
     }
